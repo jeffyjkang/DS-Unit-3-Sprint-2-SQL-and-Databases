@@ -1,0 +1,1 @@
+select_all_query = 'SELECT * FROM charactercreator_character'
