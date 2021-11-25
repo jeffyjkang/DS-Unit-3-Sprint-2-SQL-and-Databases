@@ -8,14 +8,14 @@ randomized, the numeric and boolean fields were left as defaults.
 
 Use `sqlite3` to load and write queries to explore the data, and answer the
 following questions. You should store each query as a string and label each
-as the indicated variable names. Also, store each of these queries in a seperate 
-file named `queries.py` and either run these queries in the file or import them 
-into another: 
+as the indicated variable names. Also, store each of these queries in a separate
+file named `queries.py` and either run these queries in the file or import them
+into another:
 
 - `TOTAL_CHARACTERS`: How many total Characters are there?
 - `TOTAL_SUBCLASS`: How many of each specific subclass (the `necromancer` table)?
 - `TOTAL_ITEMS`: How many total Items?
-- `WEAPONS`: How many of the Items are weapons? 
+- `WEAPONS`: How many of the Items are weapons?
 - `NON_WEAPONS`: How many of the items are not weapons?
 - `CHARACTER_ITEMS`: How many Items does each character have? (Return first 20 rows)
 - `CHARACTER_WEAPONS`: How many Weapons does each character have? (Return first 20 rows)
@@ -67,7 +67,7 @@ Then write the following queries (also with `sqlite3`) to test:
 - **Stretch Goal** What are the average number of reviews for each category?
 
 Your code (to reproduce all above steps) should be saved in
-`buddymove_holidayiq.py`. 
+`buddymove_holidayiq.py`.
 
-When you submit your files to Canvas you should upload `queries.py`, 
+When you submit your files to Canvas you should upload `queries.py`,
 `buddymove_holidayiq.py`, and `buddymove_holidayiq.sqlite3`.
